@@ -30,4 +30,8 @@ def results():
 					"calcium %":10,
 					"iron %": 20
 					}
-	return jsonify(my_results)
+	if('GET'):
+		return jsonify(my_results)
+	if("POST"):
+		return "Nothing to post to yet"
+
